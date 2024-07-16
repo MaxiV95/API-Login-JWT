@@ -1,0 +1,76 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "JWT",
+    "collectionId": "d8b568db-4bea-4c51-af79-49b167a0a5de",
+    "dateExported": "2024-07-16T18:41:08.213Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0923b591-addf-40e6-b8ad-f286ff6b241b",
+            "colId": "d8b568db-4bea-4c51-af79-49b167a0a5de",
+            "containerId": "",
+            "name": "register",
+            "url": "http://localhost:3000/user/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-07-16T15:32:59.343Z",
+            "modified": "2024-07-16T15:32:59.343Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"maxi\",\n  \"password\": \"123\",\n  \"note\": \"una nota\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "3b8d833a-ad73-484d-904b-de8dcc89ed93",
+            "colId": "d8b568db-4bea-4c51-af79-49b167a0a5de",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:3000/user/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-07-16T15:33:26.913Z",
+            "modified": "2024-07-16T18:15:56.207Z",
+            "headers": []
+        },
+        {
+            "_id": "1b2774a0-3dff-4792-8d59-22e51d79d58a",
+            "colId": "d8b568db-4bea-4c51-af79-49b167a0a5de",
+            "containerId": "",
+            "name": "get user",
+            "url": "http://localhost:3000/user",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-07-16T15:46:53.067Z",
+            "modified": "2024-07-16T15:46:53.067Z",
+            "headers": []
+        },
+        {
+            "_id": "bb725790-04ec-412a-a652-2ca505012d1a",
+            "colId": "d8b568db-4bea-4c51-af79-49b167a0a5de",
+            "containerId": "",
+            "name": "put user",
+            "url": "http://localhost:3000/user",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-07-16T16:06:53.984Z",
+            "modified": "2024-07-16T18:11:00.089Z",
+            "headers": []
+        },
+        {
+            "_id": "0c963cc5-adeb-44fb-8f89-8dbe30835378",
+            "colId": "d8b568db-4bea-4c51-af79-49b167a0a5de",
+            "containerId": "",
+            "name": "admin get",
+            "url": "http://localhost:3000/admin",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-07-16T18:11:53.177Z",
+            "modified": "2024-07-16T18:28:03.500Z",
+            "headers": []
+        }
+    ],
+    "ref": "lpCLw3gHwH1mYdDwMfvnCNXqWTzTZrtDcydYAO2vSYTPY9jbO0SWAo7Femla37A6P94MmH7d0wrkO2WH5NDlaA"
+}

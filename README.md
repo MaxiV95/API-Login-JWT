@@ -57,8 +57,10 @@ Para verificar que versión tienes instalada:
 
 - **git commit -m 'mensaje'** realiza un nuevo commit con un mensaje
 
+- **git push** sube el commit a la nube
+
 - **git commit --amend** modifica el ultimo commit (cambiar archivos y mensaje, en rama propia)
 
-- **git push** sube el commit a la nube
+- **git reset --soft HEAD~1** desase el ultimo commit sin perder cambios
 
 - **git push --force** sube el commit a la nube de manera forzosa, para luego de haber realizado un amend (cuidado! solo en rama propia)
